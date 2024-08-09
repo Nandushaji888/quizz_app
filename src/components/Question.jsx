@@ -19,7 +19,7 @@ const Question = ({ question, onAnswer, btnDisabled }) => {
             disabled={btnDisabled}
             key={index}
             onClick={() => handleAnswer(option)}
-            className={`option px-1 py-2 rounded text-white ${
+            className={`option px-1 py-2 rounded text-white transition-transform duration-200 ease-in-out ${
               btnDisabled
                 ? option === question.correctAnswer
                   ? "bg-green-500"
@@ -28,7 +28,7 @@ const Question = ({ question, onAnswer, btnDisabled }) => {
                   : "bg-blue-500"
                 : selectedAnswer === option
                 ? "bg-orange-400"
-                : "bg-blue-500"
+                : "bg-blue-500 hover:bg-blue-600 hover:scale-105"
             }`}
           >
             {option}
