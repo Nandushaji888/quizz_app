@@ -39,4 +39,4 @@ To get started with this project, follow the steps below:
 
     The app should now be running at `http://localhost:5173`.
 
-## Project Structure
+
