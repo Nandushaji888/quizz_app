@@ -20,7 +20,7 @@ const quizSlice = createSlice({
         correctAnswer: 'William Shakespeare',
       },
       {
-        question: 'What is the smallest prime no?',
+        question: 'What is the smallest prime Number?',
         options: ['0', '1', '2', '3'],
         correctAnswer: '2',
       },
