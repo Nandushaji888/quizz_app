@@ -1,0 +1,7 @@
+
+.app-background {
+    background-image: url('/bgImage.jpg');
+    background-size: cover;
+    min-height: 100vh;
+  }
+  

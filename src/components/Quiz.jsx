@@ -63,11 +63,7 @@ const Quiz = () => {
         btnDisabled={btnDisabled}
       />
       <Timer width={width} timeLeft={timeLeft}/>
-      {/* {showCorrectAnswer && (
-        <div className="">
-          <span className="font-bold">Correct answer</span>: {correctAnswer}
-        </div>
-      )} */}
+
     </div>
   );
 };
