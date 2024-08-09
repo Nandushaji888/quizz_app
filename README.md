@@ -16,8 +16,11 @@ To get started with this project, follow the steps below:
 1.  **Clone the repository:**
 
         ```bash
-
     https://github.com/Nandushaji888/quizz_app.git
+        ```
+               
+                ```bash
+
     cd quiz-app
     ```
 
