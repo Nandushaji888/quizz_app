@@ -15,14 +15,13 @@ To get started with this project, follow the steps below:
 
 1.  **Clone the repository:**
 
-        ```bash
-    https://github.com/Nandushaji888/quizz_app.git
-        ```
-               
-                ```bash
-
+    ```bash
+    git clone https://github.com/Nandushaji888/quizz_app.git
     cd quiz-app
     ```
+               
+
+
 
 2.  **Install dependencies:**
 
